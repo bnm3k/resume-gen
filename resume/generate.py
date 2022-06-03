@@ -23,7 +23,6 @@ preamble = """\
 <meta charset="UTF-8">
 <title>{title}</title>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap");
 {css}
 </style>
 </head>

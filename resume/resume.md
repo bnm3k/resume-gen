@@ -18,7 +18,7 @@ adaptive variants.
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>CEO/President, Pied Piper</span> <span>Dec 2013 -- Dec 2014</span>
+### <span>CEO/President, Pied Piper</span> <span class="time-period">Dec 2013 -- Dec 2014</span>
 
 Pied Piper is a multi-platform technology based on a proprietary universal
 compression algorithm that has consistently fielded high Weisman Scores™ that
@@ -30,7 +30,7 @@ compression.
  - Successfully won Techcrunch Disrupt
  - Optimized an algorithm that holds the current world record for Weisman Scores
 
-### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
+### <span>Teacher, CoderDojo</span> <span class="time-period">July 2013 -- Dec 2013</span>
 
 Global movement of free coding clubs for young people.
 
@@ -38,7 +38,7 @@ Global movement of free coding clubs for young people.
 
 ## Projects
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
+### <span>Miss Direction</span> <span class="time-period">Aug 2016</span>
 
 A mapping engine that misguides you:
 
@@ -48,7 +48,7 @@ A mapping engine that misguides you:
 
 ## Education
 
-### <span>University of Oklahoma, BA Information Technology</span> <span>2011 -- 2014</span>
+### <span>University of Oklahoma, BA Information Technology</span> <span class="time-period">2011 -- 2014</span>
 
   - GPA 4.0
   - DB1101 - Basic SQL
