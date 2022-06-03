@@ -27,11 +27,16 @@ setup:
 	$(VENV_BIN)pre-commit install
 
 build/resume.html: resume/resume.md resume/generate.py resume/base.html resume/style.css
-	echo "here"
 	python resume/generate.py -d build
 
 gen: build/resume.html
-	echo "foo"
+
+refresh: gen
+	./refresh/reload-browser Firefox
+
+watch: gen
+	firefox build/resume.html
+	ls resume/* | entr -c make refresh
 
 lint:
 	flake8 --show-source .
