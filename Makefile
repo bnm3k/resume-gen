@@ -26,7 +26,7 @@ setup:
 	poetry install
 	$(VENV_BIN)pre-commit install
 
-build/resume.html: resume/resume.md resume/generate.py resume/base.html resume/style.css
+build/resume.html: resume/resume.md resume/generate.py resume/style.css
 	python resume/generate.py -d build
 
 gen: build/resume.html
