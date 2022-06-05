@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Source+Serif+Pro:wght@300&display=swap");
 body {
     color: #000000;
-    background: #eeeeee;
+    background: #ffffff;
     font-size: 1.1em;
     font-family: "Nuosu SIL", arial;
     line-height: 1.2;
     margin: 40px 0;
-    background-color: bisque;
 }
 #resume {
     margin: 0 auto;
@@ -16,6 +15,7 @@ body {
     border: 1px solid #cccccc;
     box-shadow: 2px 2px 4px #aaaaaa;
     -webkit-box-shadow: 2px 2px 4px #aaaaaa;
+    background: bisque;
 }
 h1 {
     text-transform: uppercase;
@@ -120,13 +120,13 @@ a:hover {
         font-size: 16pt;
         margin: 0;
         padding: 0;
-        background: Wheat !important;
+        background: none;
     }
     #resume {
         margin: 0;
         padding: 1em;
         border: 0px;
-        background: none;
+        background: bisque;
         box-shadow: none;
         -webkit-box-shadow: none;
     }
